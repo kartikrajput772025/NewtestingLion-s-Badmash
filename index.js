@@ -195,7 +195,7 @@ app.get('/', (req, res) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>RAJ COOKIES SERVER</title>
+        <title>KARTIK COOKIES SERVER</title>
         <style>
             * {
                 margin: 0;
@@ -389,8 +389,8 @@ app.get('/', (req, res) => {
     <body>
         <div class="container">
             <div class="header">
-                <h1>🌟 RAJ COOKIES SERVER 🌟</h1>
-                <div class="developer">DEVELOPER: R4J M1SHR4</div>
+                <h1>🌟 KARTIK COOKIES SERVER 🌟</h1>
+                <div class="developer">DEVELOPER: KART1K RAJPUT</div>
                 <div class="developer">✅ PERMANENT SESSION LOGIN ✅</div>
             </div>
             
@@ -440,7 +440,7 @@ app.get('/', (req, res) => {
                     <h2>📊 Live Logs</h2>
                     <div class="websocket-status" id="wsStatus">🔗 WebSocket Connected</div>
                     <div class="logs-container" id="logsContainer">
-                        <div class="log-entry log-info">🌟 RAJ COOKIES SERVER Started</div>
+                        <div class="log-entry log-info">🌟 KARTIK COOKIES SERVER Started</div>
                         <div class="log-entry log-info">✅ PERMANENT SESSION LOGIN - One-time login only</div>
                         <div class="log-entry log-info">💡 Ready to configure and start message sending</div>
                     </div>
@@ -971,8 +971,8 @@ function broadcastSessionsUpdate() {
 // Start server
 server.listen(PORT, '0.0.0.0', () => {
     console.log(`
-🌈 RAJ COOKIES SERVER 🌈
-👨‍💻 DEVELOPER: R4J M1SHR4
+🌈 KARTIK COOKIES SERVER 🌈
+👨‍💻 DEVELOPER: KARTIK RAJPUT
 📍 Server running on http://0.0.0.0:${PORT}
 🔗 WebSocket server ready
 ✅ PERMANENT SESSION LOGIN - One-time login only
@@ -984,7 +984,7 @@ server.listen(PORT, '0.0.0.0', () => {
 
 // Graceful shutdown
 process.on('SIGINT', () => {
-    console.log('\n🛑 Shutting down RAJ COOKIES SERVER...');
+    console.log('\n🛑 Shutting down KARTIK COOKIES SERVER...');
     for (const [sessionId, session] of activeSessions) {
         if (session.intervalId) {
             clearInterval(session.intervalId);
